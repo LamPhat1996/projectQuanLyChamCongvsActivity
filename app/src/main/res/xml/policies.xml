@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  5 thêm quyền admin cho ứng dụng cảm biến khóa màng hình-->
+    <uses-policies>
+        <force-lock/>
+        <watch-login/>
+    </uses-policies>
+</device-admin>

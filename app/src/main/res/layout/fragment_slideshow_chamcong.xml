@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chamcong" />
+
+    <EditText
+        android:id="@+id/edt_Macc"
+        android:drawableLeft="@drawable/ic_code_black_24dp"
+        android:gravity="center"
+        style="@style/txt"
+        android:hint="@string/macc" />
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/tvngaychamcong_chamcong"
+            android:text="Ngày Chấm Công :" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/tvngaythangnamchamcong_chamcong"
+            android:text="@string/date"/>
+
+
+        <Button
+            android:id="@+id/btndate"
+            style="@style/btndate_chamcong"
+            android:drawableLeft="@drawable/date"
+            android:text="Date"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tvchonmacongnhan"
+            style="@style/tvmachamcong_chamcong"
+            android:text="Chọn Mã Công Nhân:" />
+        <Spinner
+            android:id="@+id/spnMaCongNhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </TableRow>
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chucnang" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <Button
+
+            android:id="@+id/btnThem_chamcong"
+            style="@style/btn_chamcong"
+            android:text="Thêm"
+            android:textColor="@color/colorAccent"></Button>
+
+        <Button
+            android:id="@+id/btnXoa_chamcong"
+            style="@style/btn_chamcong"
+            android:text="Xóa"
+            android:textColor="@color/colorAccent"></Button>
+
+        <Button
+            android:id="@+id/btnSua_chamcong"
+            style="@style/btn_chamcong"
+            android:text="Sửa"
+            android:textColor="@color/colorAccent"></Button>
+
+        <Button
+            android:id="@+id/btnClear_chamcong"
+            style="@style/btn_chamcong"
+            android:text="Clear"
+            android:textColor="@color/colorAccent"></Button>
+
+
+    </LinearLayout>
+
+
+<ListView
+    android:id="@+id/lvdsChamCong"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</ListView>
+</LinearLayout>

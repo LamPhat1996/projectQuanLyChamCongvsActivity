@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        style="@style/tieude"
+        android:text="@string/tieudeCongnhan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center">
+
+            <ImageView
+                style="@style/img_congnhan"
+                android:src="@drawable/namsinh"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tvMaCN"
+                android:drawableLeft="@drawable/ic_code_black_24dp"
+                style="@style/edtcongnhan"
+                android:hint="Mã Công Nhân "></EditText>
+
+            <EditText
+                android:id="@+id/tvHoCN"
+                style="@style/edtcongnhan"
+                android:drawableLeft="@drawable/ic_code_black_24dp"
+                android:hint="Nhập Họ Công Nhân"></EditText>
+
+            <EditText
+                android:id="@+id/tvTenCN"
+                android:drawableLeft="@drawable/ic_code_black_24dp"
+                style="@style/edtcongnhan"
+                android:hint="Nhập Tên Công Nhân "
+                ></EditText>
+
+            <EditText
+                android:id="@+id/tvPhanXuong"
+                style="@style/edtcongnhan"
+                android:drawableLeft="@drawable/ic_code_black_24dp"
+                android:hint="Nhập Phân Xưởng"></EditText>
+        </LinearLayout>
+        <TextView
+            style="@style/tieude"
+            android:text="@string/chucnang" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+            <Button
+                android:id="@+id/btnThem_congnhan"
+                style="@style/btncongnhan"
+                android:text="Thêm"
+                android:textColor="@color/colorgreenlight"></Button>
+
+            <Button
+                android:id="@+id/btnXoa_congnhan"
+                style="@style/btncongnhan"
+                android:text="Xóa"
+                android:textColor="@color/colorgreenlight"></Button>
+
+            <Button
+                android:id="@+id/btnSua_congnhan"
+                style="@style/btncongnhan"
+                android:text="Sửa"
+                android:textColor="@color/colorgreenlight"></Button>
+
+            <Button
+                android:id="@+id/btnClear_congnhan"
+                style="@style/btncongnhan"
+                android:text="Clear"
+                android:textColor="@color/colorgreenlight"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvdsCongNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>

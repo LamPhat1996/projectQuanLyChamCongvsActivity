@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">QuanLyChamCong</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_test">Run</string>
+    <string name="menu_t">T</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="tieudechinh">QUẢN LÝ CHẤM CÔNG</string>
+    <string name="tieudesanpham">SẢN PHẨM</string>
+    <string name="tieudeChamcong">CHẤM CÔNG</string>
+    <string name="tieudeChitietchamcong">CHI TIẾT CHẤM CÔNG</string>
+    <string name="tieudeCongnhan">CÔNG NHÂN</string>
+
+
+
+    //
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Fixe</string>
+    <string name="thoat">Back</string>
+    //
+    <string name="masp">Mã Sản Phẩm</string>
+    <string name="tensp">Tên Sản Phẩm</string>
+    <string name="dongia">Đơn Gía</string>
+    <string name="date">ngay/thang/nam</string>
+    //
+
+    <string name="chucnang">Chức Năng</string>
+    <string name="chamcong">Chấm Công </string>
+    //cham cong
+    <string name="macc">Mã Chấm Công : </string>
+    <string name="ngaycc">Ngày Chấm Công : </string>
+    <string name="macn">Mã Chấm Công : </string>
+</resources>

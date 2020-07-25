@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framt_sanpham"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/tieudesanpham" />
+    //ô Text Nhập
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/tv_MaSanPham"
+            android:drawableLeft="@drawable/ic_code_black_24dp"
+            style="@style/edt_masanpham_sanpham"
+            android:hint="Nhập Mã Sản Phẩm : "></EditText>
+        <EditText
+            android:id="@+id/tv_TenSanPham"
+            android:drawableLeft="@drawable/ic_code_black_24dp"
+            style="@style/edt_masanpham_sanpham"
+            android:hint="Tên Sản Phẩm "></EditText>
+
+        <EditText
+            android:id="@+id/tv_DonGia"
+            android:drawableLeft="@drawable/ic_code_black_24dp"
+            style="@style/edt_masanpham_sanpham"
+            android:hint="Đơn Giá:"></EditText>
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chucnang" />
+    <LinearLayout style="@style/chucnang">
+
+        <Button
+            android:drawableLeft="@drawable/them"
+            android:id="@+id/btnThem_sp"
+            style="@style/btn"
+            android:text="@string/them" />
+        <Button
+            android:drawableLeft="@drawable/xoa"
+            android:id="@+id/btnxoa_sp"
+            style="@style/btn"
+            android:text="@string/xoa" />
+        <Button
+            android:drawableLeft="@drawable/sua"
+            android:id="@+id/btnsua_sp"
+            style="@style/btn"
+            android:text="@string/sua" />
+
+        <Button
+            android:id="@+id/btnClear_sp"
+            style="@style/btnimg"
+            android:layout_width="wrap_content"
+            android:text="Clear" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/tieude"
+        android:text="Danh Sách Sản Phẩm" />
+    <ListView
+        android:id="@+id/lvds_SanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>
+</LinearLayout>

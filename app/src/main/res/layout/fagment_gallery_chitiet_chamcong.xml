@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        style="@style/tieude"
+        android:text="@string/tieudeChitietchamcong" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center">
+            <ImageView
+                style="@style/img_chitietchamcong"
+                android:src="@drawable/namsinh">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="vertical">
+            <TableRow
+                android:id="@+id/tableRowccChamCong"
+                style="@style/table_machamcong_chitietchamcong"
+                >
+                <TextView
+                    android:id="@+id/tvchonmachamcong"
+                    style="@style/tv_chonmachamcong_chitietchamcong"/>
+                <Spinner
+                    android:id="@+id/spnMaChamCong"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRowccMaSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/tvchonmasanpham"
+                    style="@style/tv_chonsanpham"
+                    android:hint="Chọn Sản Phẩm :" />
+                <Spinner
+                    android:id="@+id/spnMaSP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </TableRow>
+
+
+            <EditText
+                android:id="@+id/tvSoThanhPham"
+                android:drawableLeft="@drawable/ic_code_black_24dp"
+                style="@style/EditTextchitietchamcong"
+                android:hint="Nhập Số Thành Phẩm"
+
+            ></EditText>
+
+            <EditText
+                android:id="@+id/tvSoPhePham"
+                android:drawableLeft="@drawable/ic_code_black_24dp"
+                style="@style/EditTextchitietchamcong"
+                android:hint="Nhập Số Phế Phẩm "
+                ></EditText>
+
+        </LinearLayout>
+        <TextView
+            style="@style/tieude"
+            android:text="@string/chucnang" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <Button
+                android:id="@+id/btnThem_chitietChamCong"
+                style="@style/btnchitietchamcong"
+                android:text="Thêm"
+                android:textColor="@color/colorPrimaryDark"></Button>
+
+            <Button
+                android:id="@+id/btnXoa_chitietchamcong"
+                style="@style/btnchitietchamcong"
+                android:text="Xóa"
+                android:textColor="@color/colorPrimaryDark"></Button>
+
+            <Button
+                android:id="@+id/btnSua_chitietchamcong"
+                style="@style/btnchitietchamcong"
+                android:text="Sửa"
+                android:textColor="@color/colorPrimaryDark"></Button>
+
+            <Button
+                android:id="@+id/btnClear_chiTiet_ChamCong"
+                style="@style/btnchitietchamcong"
+                android:text="Clear"
+                android:textColor="@color/colorPrimaryDark"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvds_chitietchamcong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+
+</LinearLayout>

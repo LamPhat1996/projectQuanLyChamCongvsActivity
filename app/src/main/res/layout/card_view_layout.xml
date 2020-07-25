@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="14dp">
+    <!--    app:cardCornerRadius="14dp" bo góc-->
+    <!--    app:cardElevation="14dp"> độ đập nhạt của ỗi hình cách biệt-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:scaleType="fitXY">
+
+        </ImageView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

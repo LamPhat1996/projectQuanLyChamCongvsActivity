@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundvs2"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="tdc.edu.vn.projectquanlychamcongvsactivity.LoginActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xin Chào"
+            android:textColor="#CDDC39"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Đồ án Quản lý Chấm Công"
+            android:textColor="#fff"
+            android:textSize="17.5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEmail"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Email"
+            android:singleLine="true"
+            android:selectAllOnFocus="true"
+            android:nextFocusDown="@+id/edtPass"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/edtPass"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:singleLine="true"
+            android:selectAllOnFocus="true"
+            android:nextFocusDown="@+id/btnLogin"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPass"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorAccent"
+            android:text="Đăng Nhập"
+            android:singleLine="true"
+            android:selectAllOnFocus="true"
+            tools:ignore="ObsoleteLayoutParam"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

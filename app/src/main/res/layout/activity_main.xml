@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorbackgroundvs1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+
+        <Button
+            android:id="@+id/btn_congnhan"
+            style="@style/button_main"
+            android:text="Công Nhân"></Button>
+
+        <Button
+            android:id="@+id/btn_chamCong"
+            style="@style/button_main"
+            android:text="Chấm Công"></Button>
+
+        <Button
+            android:id="@+id/btn_ctchamCong"
+            style="@style/button_main"
+            android:text="CT Chấm Công"></Button>
+
+        <Button
+            android:id="@+id/btn_sanPham"
+            style="@style/button_main"
+            android:text="Sản Phẩm"></Button>
+        <Button
+            android:id="@+id/btn_Logout"
+            style="@style/button_main"
+            android:text="log out"></Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>

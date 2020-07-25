@@ -1,0 +1,176 @@
+<resources>
+
+     Base application theme.
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+         Customize your theme here.
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="txt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="lv">
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="nametitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#BC58C020</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#E90707</item>
+    </style>
+    <style name="tieude">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#9DECDA</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#E97E2B</item>
+    </style>
+    <style name="chucnang">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="btnimg">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+
+    <style name="EditTextchitietchamcong">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+
+    </style>
+    <style name="btnchitietchamcong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="img_chitietchamcong">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="table_machamcong_chitietchamcong">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="tv_chonmachamcong_chitietchamcong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:hint">Chọn Mã Chấm Công </item>
+
+    </style>
+    <style name="table_chonsanpham_chitietchamcong">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+
+    <style name="edtcongnhan">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="img_congnhan">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="btncongnhan">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">1dp</item>
+<!--        <item name="android:textColor">@color/colorgreenlight</item>-->
+    </style>
+
+
+
+    <style name="tvngaychamcong_chamcong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="tvngaythangnamchamcong_chamcong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="btndate_chamcong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="tvmachamcong_chamcong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="btn_chamcong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+<!--        <item name="android:background">"@color/colorgreenlight"</item>-->
+
+    </style>
+    <style name="tv_chonsanpham">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+// button main
+    <style name="button_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">#33CCFF</item>
+        <item name="android:textColor">#3700B3</item>
+    </style>
+    <style name="edt_masanpham_sanpham">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">13dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/ic_code_black_24dp"
+    android:gravity="center"
+    android:paddingLeft="13dp"
+    android:padding="20dp"
+    android:textSize="18dp"
+
+
+
+
+</resources>
